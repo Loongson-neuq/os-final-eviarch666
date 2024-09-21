@@ -1,0 +1,14 @@
+{
+  "name": "期末作业",
+  "description": "详细查看仓库根目录的 README.md",
+  "type": "OS",
+  "status": "open",
+  "id": "final",
+  "version": 1,
+  "config_version": 1,
+  "auto_grade": {
+    "enable": false,
+    "upload_output": true,
+    "steps": null
+  }
+}
