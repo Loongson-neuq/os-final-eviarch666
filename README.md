@@ -327,6 +327,11 @@ async Task<int> Foo(Process p)
 
 本题没有注明语言，你可以使用任何语言，包括伪代码
 
+### 扩展阅读
+
+[Async/Await - Best Practices in Asynchronous Programming](https://learn.microsoft.com/en-us/archive/msdn-magazine/2013/march/async-await-best-practices-in-asynchronous-programming)
+
+
 ## 9. [并发编程][主观题] 使用低级模型实现简单的读写锁
 
 要求学生用尽可能底层的模型（如 `volatile` 变量、原子变量等）实现一个简单的读写锁。该锁需要允许多个读线程并发访问，但当有写线程进入时，阻止所有读写操作。
